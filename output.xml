@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20220321 12:38:25.175" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\E1401139\.vscode\extensions\robocorp.robotframework-lsp-0.42.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Get Secret">
+<var>${URL} =</var>
+<arg>URL</arg>
+<msg timestamp="20220321 12:38:26.480" level="FAIL">No keyword with name 'Get Secret' found.</msg>
+<status status="FAIL" starttime="20220321 12:38:26.480" endtime="20220321 12:38:26.480"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${URL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220321 12:38:26.482" endtime="20220321 12:38:26.482"/>
+</kw>
+<kw name="Open Available Browser">
+<arg>${URL}[orderURL]</arg>
+<status status="NOT RUN" starttime="20220321 12:38:26.489" endtime="20220321 12:38:26.489"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220321 12:38:26.489" endtime="20220321 12:38:26.490"/>
+</kw>
+<kw name="Download">
+<arg>${URL}[csvURL]</arg>
+<arg>overwrite=True</arg>
+<status status="NOT RUN" starttime="20220321 12:38:26.493" endtime="20220321 12:38:26.494"/>
+</kw>
+<status status="PASS" starttime="20220321 12:38:25.216" endtime="20220321 12:38:28.526"/>
+</kw>
+<status status="PASS" starttime="20220321 12:38:25.216" endtime="20220321 12:38:28.527"/>
+</test>
+<status status="PASS" starttime="20220321 12:38:25.179" endtime="20220321 12:38:28.529"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
